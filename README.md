@@ -1,0 +1,28 @@
+# Brachial Plexus Nerve Segmentation
+
+Code for the accompanying paper, "*Automated Real Time Delineation of Supraclavicular Brachial Plexus in Neck Ultrasonography Videos: A Deep Learning Approach*" 
+
+### Dataset
+- Available in the `data` folder
+- If you wish to change the location of data folder, edit the `DATA_DIR` path in `configurations.ini`
+
+### Examples
+
+High Gain             |  Medium Gain          |  Low Gain
+:-------------------------:|:-------------------------:|:-------------------------:
+![](./other/high_gain.gif)  |  ![](./other/medium_gain.gif) |  ![](./other/Low_gain1.gif)
+
+### Installation
+Implemented for Python 3, with following dependencies:
+- PyTorch
+- Torchvision
+- OpenCV
+- PIL
+- sklearn
+- Numpy
+- Pandas
+- tqdm
+
+### Usage
+See `segmentation.ipynb` jupyter notebook
+- More configurations and hyperparameters can be modified in `configurations.ini` 
